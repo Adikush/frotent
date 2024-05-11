@@ -1,0 +1,18 @@
+.sprite-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.sprite-image{
+    height: 200px;
+    width: 15000px;
+    background: url(./jklh/sprite-mascotte\ \(1\).png);
+    animation: play 0.8s steps(13) infinite;
+}
+
+@keyframes play{
+    100%{
+        background-position: -900px;
+    }
+}
